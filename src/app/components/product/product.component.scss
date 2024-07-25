@@ -14,7 +14,11 @@
 
     .title {
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        white-space: nowrap;
+        overflow: hidden;     /* Hide any overflow */
+        text-overflow: ellipsis; /* Optional: add ellipsis if the text overflows */
+        max-width: 90%;
     }
 
     .price-label {
