@@ -44,6 +44,14 @@ app-root {
     margin-bottom: 25px;
 }
 
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
@@ -62,6 +70,10 @@ app-root {
 
 .space-between {
     justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
 }
 
 .align-center {

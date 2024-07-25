@@ -1,5 +1,8 @@
 .wrapper {
     width: 250px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
 
     img {
         aspect-ratio: 1;
@@ -23,4 +26,8 @@
         font-weight: 500;
         font-size: 1rem;
     }
+}
+
+.wrapper:hover {
+    transform: scale(1.025);
 }
